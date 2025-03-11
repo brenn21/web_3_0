@@ -1,0 +1,65 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+/* En-tête */
+header {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0fbcf9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background: #1e272e;
+}
+
+/* Style de l'image */
+#home img {
+    width: 50%; /* Ajuste la taille de l’image */
+    max-width: 600px; /* Limite la largeur max */
+    margin-top: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+#technologies {
+    background: #485460;
+}
+
+#applications {
+    background: #808e9b;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+}
