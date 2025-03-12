@@ -65,20 +65,20 @@ section {
     background: #808e9b;
 }
 
-/* Styliser la vidéo */
-video {
-  max-width: 100%;  /* La vidéo prendra toute la largeur disponible */
-  height: auto;  /* Laisser la hauteur s'adapter proportionnellement à la largeur */
-  border: 2px solid #333;  /* Ajouter une bordure autour de la vidéo */
-  border-radius: 10px;  /* Arrondir les coins de la vidéo */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* Ajouter une ombre portée */
-  background-color: #000;  /* Fond noir si la vidéo n'est pas encore chargée */
+/* Styliser le lien pour qu'il ressemble à un bouton */
+.video-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-/* Pour la vidéo au survol (hover) */
-video:hover {
-  transform: scale(1.05);  /* Agrandir légèrement la vidéo au survol */
-  transition: transform 0.3s ease;  /* Animation fluide */
+.video-link:hover {
+  background-color: #005f73;
 }
 
 /* Pied de page */
