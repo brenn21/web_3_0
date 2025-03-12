@@ -53,6 +53,14 @@ section {
     background: #485460;
 }
 
+#technologies img {
+    width: 50%; /* Ajuste la taille de l’image */
+    max-width: 600px; /* Limite la largeur max */
+    margin-top: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
 #applications {
     background: #808e9b;
 }
